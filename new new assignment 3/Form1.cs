@@ -22,7 +22,7 @@ namespace new_new_assignment_3
             // when a number hasnt been typed in it will show a messagebox with "type in a number"
             try
             {
-                // reads numbers from textboxes 1 and
+                // reads numbers from textboxes 1 and 2
                 double R1 = Convert.ToDouble(textBox1.Text);
                 double R2 = Convert.ToDouble(textBox2.Text);
 
@@ -38,14 +38,17 @@ namespace new_new_assignment_3
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // when a number hasnt been typed in it will show a messagebox with "type in a number"
             try
             {
+                // reads numbers from textboxes 3, 4 and 5
                 double R1 = Convert.ToDouble(textBox3.Text);
                 double R2 = Convert.ToDouble(textBox4.Text);
                 double R3 = Convert.ToDouble(textBox5.Text);
 
                 double Total = R1 + R2 + R3;
                 label2.Text = "Total Resistance = " + Total;
+                // shows the total resistance in label 2
             }
             catch
             {
@@ -56,8 +59,10 @@ namespace new_new_assignment_3
 
         private void button3_Click(object sender, EventArgs e)
         {
+            // when a number hasnt been typed in it will show a messagebox with "type in a number"
             try
             {
+                // reads numbers from textboxes 6, 7, 8 and 9
                 double R1 = Convert.ToDouble(textBox6.Text);
                 double R2 = Convert.ToDouble(textBox7.Text);
                 double R3 = Convert.ToDouble(textBox8.Text);
@@ -65,6 +70,7 @@ namespace new_new_assignment_3
 
                 double Total = R1 + R2 + R3 + R4;
                 label3.Text = "Total Resistance = " + Total;
+                // shows the total resistance in label 3
             }
             catch
             {
@@ -74,8 +80,10 @@ namespace new_new_assignment_3
 
         private void button4_Click(object sender, EventArgs e)
         {
+            // when a number hasnt been typed in it will show a messagebox with "type in a number"
             try
             {
+                // reads numbers from textboxes 10, 11, 12, 13 and 14
                 double R1 = Convert.ToDouble(textBox10.Text);
                 double R2 = Convert.ToDouble(textBox11.Text);
                 double R3 = Convert.ToDouble(textBox12.Text);
@@ -85,6 +93,7 @@ namespace new_new_assignment_3
 
                 double Total = R1 + R2 + R3 + R4 + R5;
                 label4.Text = "Total Resistance = " + Total;
+                // shows the total resistance in label 4
             }
             catch
             {
@@ -95,13 +104,16 @@ namespace new_new_assignment_3
 
         private void button5_Click(object sender, EventArgs e)
         {
+            // when a number hasnt been typed in it will show a messagebox with "type in a number"
             try
             {
+                // reads numbers from textboxes 15 and 16
                 double R1 = Convert.ToDouble(textBox15.Text);
                 double R2 = Convert.ToDouble(textBox16.Text);
 
                 double Total = 1 / (1 / R1 + 1 / R2);
                 label5.Text = "total Resistance = " + Total;
+                // shows the total resistance in label 5
             }
             catch
             {
@@ -112,14 +124,17 @@ namespace new_new_assignment_3
 
         private void button6_Click(object sender, EventArgs e)
         {
+            // when a number hasnt been typed in it will show a messagebox with "type in a number"
             try
             {
+                // reads numbers from textboxes 17, 18 and 19
                 double R1 = Convert.ToDouble(textBox17.Text);
                 double R2 = Convert.ToDouble(textBox18.Text);
                 double R3 = Convert.ToDouble(textBox19.Text);
 
                 double Total = 1 / (1 / R1 + 1 / R2 + 1 / R3);
                 label6.Text = "total Resistance = " + Total;
+                // shows the total resistance in label 6
             }
             catch
             {
@@ -130,8 +145,10 @@ namespace new_new_assignment_3
 
         private void button7_Click(object sender, EventArgs e)
         {
+            // when a number hasnt been typed in it will show a messagebox with "type in a number"
             try
             {
+                // reads numbers from textboxes 20, 21, 22 and 23
                 double R1 = Convert.ToDouble(textBox20.Text);
                 double R2 = Convert.ToDouble(textBox21.Text);
                 double R3 = Convert.ToDouble(textBox22.Text);
@@ -139,6 +156,7 @@ namespace new_new_assignment_3
 
                 double Total = 1 / (1 / R1 + 1 / R2 + 1 / R3 + 1 / R4);
                 label7.Text = "total Resistance = " + Total;
+                // shows the total resistance in label 7
             }
             catch
             {
@@ -149,8 +167,10 @@ namespace new_new_assignment_3
 
         private void button8_Click(object sender, EventArgs e)
         {
+            // when a number hasnt been typed in it will show a messagebox with "type in a number"
             try
             {
+                // reads numbers from textboxes 24, 25, 26, 27 and 28
                 double R1 = Convert.ToDouble(textBox24.Text);
                 double R2 = Convert.ToDouble(textBox25.Text);
                 double R3 = Convert.ToDouble(textBox26.Text);
@@ -159,6 +179,7 @@ namespace new_new_assignment_3
 
                 double Total = 1 / (1 / R1 + 1 / R2 + 1 / R3 + 1 / R4 + 1 / R5);
                 label8.Text = "total Resistance = " + Total;
+                // shows the total resistance in label 8
             }
             catch
             {
